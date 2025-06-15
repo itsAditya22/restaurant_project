@@ -20,10 +20,8 @@ img2=PhotoImage(file="logo2.png")
 logo_lbl1=Label(win,image=img1)
 logo_lbl1.place(x=0,y=0)
 
-
 logo_lbl2=Label(win,image=img2)
 logo_lbl2.place(relx=.85,y=0)
-
 
 def home_screen():
     frm=Frame(win,bg='pink')
